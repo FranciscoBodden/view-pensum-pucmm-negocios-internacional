@@ -1,0 +1,855 @@
+{
+  "version": 5,
+  "institution": "unpec",
+  "code": "ADM11",
+  "publishDate": "01/01/2021",
+  "fetchDate": "2021-04-24",
+  "career": "LICENCIATURA EN ADMINISTRACION DE EMPRESAS Concentración Negocios Internacionales",
+  "info": [
+    "TOTAL GENERAL DE CRÉDITOS: 196",
+    "TÍTULO: Licenciado en Dirección Empresarial Concentración Negocios Internacionales"
+  ],
+  "src": {
+    "type": "online",
+    "date": "2021-04-24",
+    "url": "https://pucmm.edu.do/sociales/Documents/brochure-direccion-empresarial-DENI.pdf"
+  },
+  "periodType": {
+    "name": "Cuatrimestre",
+    "abbr": "Cuat",
+    "two": "Ct"
+  },
+  "loose": [],
+  "periods": [
+    [
+      {
+        "code": "LET101",
+        "name": "Español I",
+        "cr": 4,
+        "req": []
+      },
+      {
+        "code": "ESG105",
+        "name": "Razonamiento Lógico-Matemático",
+        "cr": 4,
+        "req": []
+      },
+      {
+        "code": "DE111",
+        "name": "Teoría y Procesos Administrativos",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "MAT119",
+        "name": "Precálculo",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "ART",
+        "name": "Electiva de Arte",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "ESG1",
+        "name": "Electiva de Historia y Sociedad Mundial",
+        "cr": 3,
+        "req": []
+      }
+    ],
+    [
+      {
+        "code": "LET102",
+        "name": "Español II",
+        "cr": 4,
+        "req": ["LET101"]
+      },
+      {
+        "code": "DE112",
+        "name": "Comportamiento Organizacional",
+        "cr": 3,
+        "req": ["DE111"]
+      },
+      {
+        "code": "IDEP",
+        "name": "Electiva de Deportes",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "ESG2",
+        "name": "Electiva de Historia y Sociedad Dominicana",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "ESG3",
+        "name": "Electiva de Ciencia y Humanismo",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "MAT138",
+        "name": "Cálculo I para Negocios y Economía",
+        "cr": 4,
+        "req": ["MAT119"]
+      }
+    ],
+    [
+      {
+        "code": "DE123",
+        "name": "Actualidad e Integración Tecnológica en los Negocios",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "ECO104",
+        "name": "Economía para Negocios",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "1GFA113",
+        "name": "Análisis Computarizado de GFA-113",
+        "cr": 1,
+        "req": ["GFA113"]
+      },
+      {
+        "code": "GFA113",
+        "name": "Contabilidad Financiera I",
+        "cr": 3,
+        "req": ["1GFA113"]
+      },
+      {
+        "code": "MKT133",
+        "name": "Fundamentos de Marketing",
+        "cr": 3,
+        "req": []
+      }
+    ],
+    [
+      {
+        "code": "ILE205",
+        "name": "Inglés I",
+        "cr": 4,
+        "req": ["ILE203"]
+      },
+      {
+        "code": "GFA211",
+        "name": "Contabilidad Financiera II",
+        "cr": 3,
+        "req": [
+            "1GFA113",
+            "GFA113"
+        ]
+      },
+      {
+        "code": "1GFA211",
+        "name": "Análisis Computarizado de GFA-211",
+        "cr": 1,
+        "req": ["1GFA113","GFA113"]
+      },
+      {
+        "code": "DE131",
+        "name": "Matemáticas Financieras",
+        "cr": 4,
+        "req": ["DE115", "MAT138", "MAT140"]
+      },
+      {
+        "code": "DE213",
+        "name": "Liderazgo y Gestión de Equipos",
+        "cr": 3,
+        "req": ["DE112"]
+      }
+    ],
+    [
+      {
+        "code": "ILE303",
+        "name": "Inglés II",
+        "cr": 4,
+        "req": ["ILE205"]
+      },
+      {
+        "code": "DE236",
+        "name": "Estadísticas para Negocios I",
+        "cr": 3,
+        "req": ["MAT138", "MAT140"]
+      },
+      {
+        "code": "1DE236",
+        "name": "Laboratorio DE-236",
+        "cr": 1,
+        "req": ["MAT138","MAT140"]
+      },
+      {
+        "code": "DER241",
+        "name": "Derecho para la Gestión de Negocios",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "ESG4",
+        "name": "Electiva de Literatura",
+        "cr": 1,
+        "req": []
+      },
+      {
+        "code": "ESG5",
+        "name": "Electiva de Ciencia Ambiental",
+        "cr": 1,
+        "req": []
+      },
+      {
+        "code": "1ESG9",
+        "name": "Laboratorio de Ciencia Ambiental",
+        "cr": 1,
+        "req": []
+      }      
+    ],
+    [
+      {
+        "code": "DE218",
+        "name": "Desarrollo Organizacional",
+        "cr": 3,
+        "req": ["DE112"]
+      },
+      {
+        "code": "ILE305",
+        "name": "Inglés III",
+        "cr": 4,
+        "req": ["ILE303"]
+      },
+      {
+        "code": "DE237",
+        "name": "Estadísticas para Negocios II",
+        "cr": 3,
+        "req": ["1DE236","DE236"]
+      },
+      {
+        "code": "1DE237",
+        "name": "Laboratorio DE-237",
+        "cr": 1,
+        "req": ["1DE236","DE236"]
+      },
+      {
+        "code": "GFA220",
+        "name": "Contabilidad de Gestión",
+        "cr": 4,
+        "req": ["1GFA211","GFA211"]
+      },
+      {
+        "code": "FIL",
+        "name": "Electiva de Filosofía",
+        "cr": 4,
+        "req": []
+      }
+    ],
+    [
+      {
+        "code": "ECO412",
+        "name": "Preparación y Evaluación de Proyectos",
+        "cr": 3,
+        "req": ["ECO104"]
+      },
+      {
+        "code": "ILE491",
+        "name": "Inglés Empresarial",
+        "cr": 4,
+        "req": ["ILE305","ILE311","ILE322"]
+      },
+      {
+        "code": "DE313",
+        "name": "Presupuesto",
+        "cr": 3,
+        "req": ["DE131"]
+      },
+      {
+        "code": "DE323",
+        "name": "Estrategia Empresarial",
+        "cr": 3,
+        "req": ["DE112", "MKT133"]
+      },
+      {
+        "code": "DE331",
+        "name": "Investigación en los Negocios",
+        "cr": 3,
+        "req": ["1DE236","1MAT236","DE115","DE236","MAT236"]
+      },
+      {
+        "code": "ET208",
+        "name": "Cristianismo y Compromiso Social",
+        "cr": 2,
+        "req": []
+      }
+    ],
+    [
+      {
+        "code": "DE342",
+        "name": "Gestión de Proyectos",
+        "cr": 3,
+        "req": ["DE131"]
+      },
+      {
+        "code": "DE314",
+        "name": "Gestión Impositiva",
+        "cr": 3,
+        "req": ["GFA220"]
+      },
+      {
+        "code": "DE312",
+        "name": "Gestión del Capital Humano",
+        "cr": 3,
+        "req": ["DE112"]
+      },
+      {
+        "code": "GFA351",
+        "name": "Análisis de Estados Financieros para Dirección Empresarial",
+        "cr": 3,
+        "req": ["GFA220"]
+      },
+      {
+        "code": "DE324",
+        "name": "Gerencia de Operaciones",
+        "cr": 3,
+        "req": ["1DE236", "DE236"]
+      },
+      {
+        "code": "ET2",
+        "name": "Electiva II Estudios Teológicos",
+        "cr": 3,
+        "req": []
+      }
+
+    ],
+    [
+      {
+        "code": "DE327",
+        "name": "Fundamentos de Negocios Internacionales",
+        "cr": 3,
+        "req": ["DE323"]
+      },
+      {
+        "code": "DE325",
+        "name": "Análisis y Toma de Decisiones en los Negocios",
+        "cr": 3,
+        "req": ["DE323"]
+      },
+      {
+        "code": "DE337",
+        "name": "Emprendimiento para los Negocios",
+        "cr": 3,
+        "req": ["DE323"]
+      },
+      {
+        "code": "DE326",
+        "name": "Gestión Logística",
+        "cr": 3,
+        "req": ["DE324"]
+      },
+      {
+        "code": "DE335",
+        "name": "Finanzas de la Empresa",
+        "cr": 3,
+        "req": ["DE131"]
+      },
+      {
+        "code": "DE1",
+        "name": "Electiva I Dirección Empresarial ",
+        "cr": 3,
+        "req": []
+      }
+
+    ],
+    [
+      {
+        "code": "DE431",
+        "name": "Teoría de Decisiones Computarizadas",
+        "cr": 4,
+        "req": ["1DE236", "DE236"]
+      },
+      {
+        "code": "DEI413",
+        "name": "Integración Económica Regional",
+        "cr": 3,
+        "req": ["DE327"]
+      },
+      {
+        "code": "DEI415",
+        "name": "Política del Comercio Internacional",
+        "cr": 3,
+        "req": ["DE327"]
+      },
+      {
+        "code": "DEI1",
+        "name": "Electiva I de Negocios Internacionales",
+        "cr": 3,
+        "req": []
+      }
+    ],
+    [
+      {
+        "code": "1DEI434",
+        "name": "Pasantía",
+        "cr": 4,
+        "req": ["DE323"]
+      },
+      {
+        "code": "DE404",
+        "name": "Responsabilidad Social Corporativa",
+        "cr": 3,
+        "req": ["DE112", "DE115"]
+      },
+      {
+        "code": "DEI417",
+        "name": "Finanzas Internacionales",
+        "cr": 3,
+        "req": ["DE327", "GFA220"]
+      },
+      {
+        "code": "DEI436",
+        "name": "Anteproyecto Final de Negocios Internacionales",
+        "cr": 3,
+        "req": ["DE327", "DE331"]
+      },
+      {
+        "code": "FIL366",
+        "name": "Ética de Profesiones de Negocios",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "DE2",
+        "name": "Electiva II de Dirección Empresarial",
+        "cr": 3,
+        "req": []
+      }
+    ],
+    [
+      {
+        "code": "DE425",
+        "name": "Control Interno y Análisis de Riesgos",
+        "cr": 3,
+        "req": ["DE325"]
+      },
+      {
+        "code": "DEI419",
+        "name": "Internacionalización de Pymes",
+        "cr": 3,
+        "req": ["DE327"]
+      },
+      {
+        "code": "DEI2",
+        "name": "Electiva II de Negocios Internacionales",
+        "cr": 3,
+        "req": []
+      },
+      {
+        "code": "DEI438",
+        "name": "Proyecto Final de Negocios Internacionales",
+        "cr": 4,
+        "req": ["DEI436"]
+      }
+    ]
+  ],
+
+  "additionalPeriods": {
+    "Electiva de Arte": {
+      "description": "",
+      "electiveCode": "ART",
+      "mats": [
+        {
+          "code": "ART107",
+          "name": "Llanto y Risa en el Teatro",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ART116",
+          "name": "Danza Popular Dominicana",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ART138",
+          "name": "Las Patologias en la Historia del Arte",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ART139",
+          "name": "Sociedad y Cultura Carnavalesca",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva de Historia y Sociedad Mundial": {
+      "description": "",
+      "electiveCode": "ESG1",
+      "mats": [
+        {
+          "code": "ESG107",
+          "name": "Papas en Occidente Moderno y Contemporaneo",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG109",
+          "name": "Revoluciones en Occidente Mod/Cont",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG104",
+          "name": "Una Historia de Derechos Humanos",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva de Deporte": {
+      "description": "",
+      "electiveCode": "IDEP",
+      "mats": [
+        {
+          "code": "IDEP102",
+          "name": "Futbol",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "IDEP105",
+          "name": "Volibol Masculino",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "IDEP106",
+          "name": "Volibol Femino",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "IDEP108",
+          "name": "Balocesto Masculino",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "IDEP110",
+          "name": "Beisbol",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "IDEP114",
+          "name": "Tenis de Mesa",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "IDEP104",
+          "name": "Natacion",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva de Historia y Sociedad Dominicana": {
+      "description": "",
+      "electiveCode": "ESG2",
+      "mats": [
+        {
+          "code": "ESG106",
+          "name": "Proceso/Retos de la Democracia Dominicana",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG108",
+          "name": "Caudillismo/Cult Politica Autoritaria",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG118",
+          "name": "La Argumentacion y el Discurso Politico",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva de Ciencia y Humanismo": {
+      "description": "",
+      "electiveCode": "ESG3",
+      "mats": [
+        {
+          "code": "ESG101",
+          "name": "Humanos Diseñados: Ingen.Genética",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG102",
+          "name": "Preguntas Fund de la Existencia Humana",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva de Literatura":{
+      "description": "",
+      "electiveCode": "ESG4",
+      "mats": [
+        {
+          "code": "ESG126",
+          "name": "Literatura y Cine",
+          "req": [],
+          "cr": 3
+        },            
+        { 
+          "code": "ESG128",
+          "name": "Realismo Mágico y Liter. Fantástica",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG132",
+          "name": "Novela Histórica: Realidad y Ficción",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG129",
+          "name": "Literatura: Violencia y Paz",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG131",
+          "name": "El Amor en la Poesía",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG103",
+          "name": "Escritura Creativa",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva de Ciencia Ambiental":{
+      "description": "",
+      "electiveCode": "ESG5",
+      "mats": [
+        {
+          "code": "ESG110",
+          "name": "La Huella Ecologica",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG112",
+          "name": "Cambio Climatico y Gestion Ambiental",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG113",
+          "name": "Ciencia Ambiental para el Desarollo Sostenible",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG216",
+          "name": "Ecologia,Salud y Medio Ambiente",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ESG215",
+          "name": "Oceanos y Sostenibilidad",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva Laboratorio de Ciencia Ambiental":{
+      "description": "",
+      "electiveCode": "1ESG",
+      "mats": [
+        {
+          "code": "1ESG110",
+          "name": "Lab. ESG-110",
+          "req": [],
+          "cr": 3
+        },     
+        {
+          "code": "1ESG112",
+          "name": "Lab. ESG-112",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "1ESG113",
+          "name": "Lab. ESG-113",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "1ESG216",
+          "name": "Lab. ESG-216",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "1ESG115",
+          "name": "Lab. ESG-115",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva de Filosofía ":{
+      "description": "",
+      "electiveCode": "FIL",
+      "mats": [
+      {
+        "code": "ESG114",
+        "name": "Dialogando con Platón",
+        "req": [],
+        "cr": 3
+      },
+      {
+        "code": "ESG117",
+        "name": "Ecofilosofía: El Ser Humano y la Naturaleza",
+        "req": [],
+        "cr": 3
+      },
+      {
+        "code": "ESG116",
+        "name": "Teorías de la Experiencia Estética",
+        "req": [],
+        "cr": 3
+      },
+      {
+        "code": "FIL113",
+        "name": "Masc. Hegemónica/Violencia Género",
+        "req": [],
+        "cr": 3
+      }
+      ]
+    },
+    "Electiva II Estudios Teológicos":{
+      "description": "",
+      "electiveCode": "ET2",
+      "mats": [
+        {
+          "code": "ET229",
+          "name": "Jesús: Persona y Enseñanza",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ET231",
+          "name": "La Iglesia en la Actualidad",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ET232",
+          "name": "Visión Cristiana del Hombre",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva I Dirección Empresarial":{
+      "description": "",
+      "electiveCode": "DE1",
+      "mats": [
+        {
+          "code": "DE471",
+          "name": "Administración de Empresas Familiares",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "ECO215",
+          "name": "Macroeconomía",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva I de Negocios Internacionales":{
+      "description": "",
+      "electiveCode": "DEI1",
+      "mats": [
+        {
+          "code": "DEI471",
+          "name": "Estrategia Global",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "MKT413",
+          "name": "Marketing Global",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "DEI472",
+          "name": "Estrategia e Innovación",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva II de Dirección Empresarial":{
+      "description": "",
+      "electiveCode": "DE2",
+      "mats": [
+        {
+          "code": "DE482",
+          "name": "Comunicación Organizacional",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "DE472",
+          "name": "Manejo y Resolución de Conflictos",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    },
+    "Electiva II de Negocios Internacionales":{
+      "description": "",
+      "electiveCode": "DEI2",
+      "mats": [
+        {
+          "code": "DEI493",
+          "name": "Comunicación Intercultural",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "DEI473",
+          "name": "Gestión Internacional del Capital Humano",
+          "req": [],
+          "cr": 3
+        },
+        {
+          "code": "MAN101",
+          "name": "Introducción al Mandarín",
+          "req": [],
+          "cr": 3
+        }
+      ]
+    }
+  }
+}

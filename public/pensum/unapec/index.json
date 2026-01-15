@@ -1,0 +1,13 @@
+{
+  "university": "UNAPEC",
+  "api": "https://servicios.unapec.edu.do/pensum/Main/Detalles/",
+  "groupOrder": ["Programas del 2020-2030", "Programas del 2010-2020", "Programas del 2000-2010"],
+  "careers": [
+    {
+      "code": "ADM11",
+      "name": "LICENCIATURA EN ADMINISTRACION DE EMPRESAS Concentración NEGOCIOS INTERNACIONALES",
+      "school": "Escuela de Administración",
+      "group": "Programas del 2020-2030"
+    }
+  ]
+}
