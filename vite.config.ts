@@ -6,17 +6,20 @@ import { VitePWA } from 'vite-plugin-pwa'
 import { execSync } from 'node:child_process'
 import { fmtDateYYYYMMDD } from './src/lib/date-utils'
 
-const commitHash = execSync('git rev-parse --short HEAD').toString()
+const commitHash = execSync('git rev-parse --short HEAD').toString().trim()
 const date = fmtDateYYYYMMDD()
 const appVersion = `${date}-${commitHash}`
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
     Object.assign(process.env, loadEnv(mode, process.cwd()))
+
+
+    const isVercel = process.env.VERCEL === '1'
+    const base = isVercel ? '/' : '/view-pensum-pucmm-negocios-internacional/'
+
     return {
-        base: mode === 'production' 
-        ? '/view-pensum-pucmm-negocios-internacional/' 
-        : '/',
+        base: mode === 'production' ? base : '/',
         define: {
             __APP_VERSION__: JSON.stringify(appVersion),
         },
@@ -34,7 +37,7 @@ export default defineConfig(({ mode }) => {
                 manifest: {
                     name: 'Pensum DO',
                     short_name: 'Pensum',
-                    start_url: '/view-pensum-pucmm-negocios-internacional/',
+                    start_url: base,
                     display: 'standalone',
                     background_color: '#21557F',
                     description: 'Seguidor de pensum para carreras de RD (coming soon).',
