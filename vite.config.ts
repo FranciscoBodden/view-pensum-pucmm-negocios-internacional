@@ -32,7 +32,7 @@ export default defineConfig(({ mode }) => {
                 manifest: {
                     name: 'Pensum DO',
                     short_name: 'Pensum',
-                    start_url: '.',
+                    start_url: '/view-pensum-pucmm-negocios-internacional/',
                     display: 'standalone',
                     background_color: '#21557F',
                     description: 'Seguidor de pensum para carreras de RD (coming soon).',
