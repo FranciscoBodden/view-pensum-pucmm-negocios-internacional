@@ -1,0 +1,22 @@
+{
+"name": "pensum-extractor",
+"private": true,
+"version": "0.0.0",
+"type": "module",
+"homepage": "https://franciscobodden.github.io/view-pensum-pucmm-negocios-internacional",
+"scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "type-check": "tsc -b",
+    "build-only": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "playwright test",
+    "lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
+    "lint:eslint": "eslint . --fix",
+    "lint": "run-s lint:*",
+    "format": "prettier --write src/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+},
+    // ... resto del archivo
+  }
