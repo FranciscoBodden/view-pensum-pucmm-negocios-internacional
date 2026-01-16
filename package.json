@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://scydact.github.io/pensum-extractor-react",
+  "homepage": "https://franciscobodden.github.io/view-pensum-pucmm-negocios-internacional",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
