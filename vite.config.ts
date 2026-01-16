@@ -14,7 +14,9 @@ const appVersion = `${date}-${commitHash}`
 export default defineConfig(({ mode }) => {
     Object.assign(process.env, loadEnv(mode, process.cwd()))
     return {
-        base: process.env.VITE_BASE_URL ?? '',
+        base: mode === 'production' 
+        ? '/view-pensum-pucmm-negocios-internacional/' 
+        : '/',
         define: {
             __APP_VERSION__: JSON.stringify(appVersion),
         },
